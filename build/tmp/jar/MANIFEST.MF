@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Class-Path: websocket-server-9.1.0.M0.jar websocket-client-9.1.0.M0.ja
+ r websocket-common-9.1.0.M0.jar websocket-servlet-9.1.0.M0.jar jetty-
+ servlet-9.1.0.M0.jar jetty-security-9.1.0.M0.jar jetty-server-9.1.0.M
+ 0.jar jetty-http-9.1.0.M0.jar websocket-api-9.1.0.M0.jar jetty-io-9.1
+ .0.M0.jar jetty-util-9.1.0.M0.jar javax.servlet-api-3.1.0.jar
+Main-Class: server.Ouija
+

@@ -1,5 +1,6 @@
 package server.data;
 
+import org.eclipse.jetty.websocket.api.Session;
 import server.ServerWebSocket;
 
 public class Client {

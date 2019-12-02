@@ -1,9 +1,9 @@
 package server;
 
+import org.eclipse.jetty.websocket.api.Session;
 import server.data.Client;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class ClientManager {
 
@@ -21,6 +21,7 @@ public class ClientManager {
      * @return the uniqueId of the Client.
      */
     public int addClient(ServerWebSocket webSocket) {
+        System.out.println("client added");
         int id = getUniqueId();
         clients.put(id, new Client(id, webSocket));
         return id;
@@ -33,6 +34,14 @@ public class ClientManager {
      */
     public Client getClient(int id) {
         return clients.get(id);
+    }
+
+    public Set<Integer> clientIds() {
+        return clients.keySet();
+    }
+
+    public Set<Client> clients() {
+        return new HashSet<>(clients.values());
     }
 
     public void removeClient(int clientId) {

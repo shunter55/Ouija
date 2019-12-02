@@ -14,6 +14,7 @@ public class ServerWebSocketImpl implements ServerWebSocket {
     private ClientManager clientManager;
 
     private int clientId = -1;
+    private Session session;
 
     public ServerWebSocketImpl(ClientManager clientManager) {
         this.clientManager = clientManager;
@@ -33,13 +34,10 @@ public class ServerWebSocketImpl implements ServerWebSocket {
     @OnWebSocketConnect
     public void onConnect(Session session) {
         System.out.println("Connect: " + session.getRemoteAddress().getAddress() + " - " + session.getLocalAddress());
+        this.session = session;
         clientId = clientManager.addClient(this);
 
-        try {
-            session.getRemote().sendString("You are connected as client: " + clientId);
-        } catch (IOException e) {
-            System.out.println("IO Exception");
-        }
+        send("You are connected as client: " + clientId);
     }
 
     @OnWebSocketMessage
@@ -47,4 +45,13 @@ public class ServerWebSocketImpl implements ServerWebSocket {
         System.out.println("Message: " + message);
     }
 
+    @Override
+    public void send(String str) {
+        try {
+            session.getRemote().sendString(str);
+        } catch (IOException e) {
+            System.out.println("IO Exception");
+            e.printStackTrace();
+        }
+    }
 }

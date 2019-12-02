@@ -25,4 +25,4 @@ jar {
     }
 }
 
-mainClassName = "Ouija"
+mainClassName = "game.Ouija"

@@ -7,7 +7,7 @@ import org.eclipse.jetty.websocket.server.WebSocketHandler;
  * Creates and Starts a Jetty Web Socket Server.
  */
 public class WebSocketServer {
-    private ClientManager clientManager;
+    public ClientManager clientManager;
     private Server server;
 
     public WebSocketServer(int port) {

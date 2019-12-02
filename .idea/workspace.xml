@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5310ff55-76ff-48fd-ba45-6d221135bcb2" name="Default Changelist" comment="" />
+    <list default="true" id="5310ff55-76ff-48fd-ba45-6d221135bcb2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Ouija.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/ClientManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/server/ClientManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/Ouija.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/ServerWebSocket.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/server/ServerWebSocket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/ServerWebSocketImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/server/ServerWebSocketImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/WebSocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/server/WebSocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/server/data/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/server/data/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ouija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/game/Ouija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ClientManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ClientManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerWebSocket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerWebSocket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/ServerWebSocketImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/ServerWebSocketImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/WebSocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/WebSocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/server/data/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/server/data/Client.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +56,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UPEwBg8V0Dad6rgR0hkXQaE33g" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -40,6 +68,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -55,11 +84,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Ouija" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ouija" />
+      <option name="MAIN_CLASS_NAME" value="game.Ouija" />
       <module name="ouija-server.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ouija" />
+          <option name="PATTERN" value="game.Ouija" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,10 +136,10 @@
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
     <state x="1786" y="394" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575264331001" />
-    <state x="2134" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1575262642332">
+    <state x="2134" y="443" key="#com.intellij.ide.util.MemberChooser" timestamp="1575265515157">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
-    <state x="2134" y="443" key="#com.intellij.ide.util.MemberChooser/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575262642332" />
+    <state x="2134" y="443" key="#com.intellij.ide.util.MemberChooser/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575265515157" />
     <state x="2094" y="596" width="455" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1575264230088">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
@@ -119,22 +148,22 @@
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
     <state x="2059" y="486" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575261447417" />
-    <state width="2177" height="409" key="GridCell.Tab.0.bottom" timestamp="1575264356016">
+    <state width="2177" height="409" key="GridCell.Tab.0.bottom" timestamp="1575266888903">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
-    <state width="2177" height="409" key="GridCell.Tab.0.bottom/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575264356016" />
-    <state width="2177" height="409" key="GridCell.Tab.0.center" timestamp="1575264356015">
+    <state width="2177" height="409" key="GridCell.Tab.0.bottom/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575266888903" />
+    <state width="2177" height="409" key="GridCell.Tab.0.center" timestamp="1575266888902">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
-    <state width="2177" height="409" key="GridCell.Tab.0.center/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575264356015" />
-    <state width="2177" height="409" key="GridCell.Tab.0.left" timestamp="1575264356015">
+    <state width="2177" height="409" key="GridCell.Tab.0.center/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575266888902" />
+    <state width="2177" height="409" key="GridCell.Tab.0.left" timestamp="1575266888902">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
-    <state width="2177" height="409" key="GridCell.Tab.0.left/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575264356015" />
-    <state width="2177" height="409" key="GridCell.Tab.0.right" timestamp="1575264356016">
+    <state width="2177" height="409" key="GridCell.Tab.0.left/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575266888902" />
+    <state width="2177" height="409" key="GridCell.Tab.0.right" timestamp="1575266888903">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
-    <state width="2177" height="409" key="GridCell.Tab.0.right/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575264356016" />
+    <state width="2177" height="409" key="GridCell.Tab.0.right/-1280.22.1280.778/0.22.3440.1418@0.22.3440.1418" timestamp="1575266888903" />
     <state x="1830" y="370" key="SettingsEditor" timestamp="1575252960134">
       <screen x="0" y="22" width="3440" height="1418" />
     </state>
